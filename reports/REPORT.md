@@ -1,6 +1,6 @@
 # Báo cáo Ngày 4 - Keypoint & Pose
 
-Họ tên: ______   Nhóm: ______   Ngày: ______
+Họ tên: ___Đỗ Nguyễn Việt Linh___   Nhóm: ______   Ngày: ___16/09/2026___
 
 > Cách dùng: copy file này thành `reports/REPORT.md`. Điền bằng số liệu do công cụ sinh ra;
 > không tự ước lượng hoặc sửa số trong file JSON.
@@ -13,21 +13,20 @@ thời gian gán / 20. -->
 
 | Chỉ số | Giá trị |
 | --- | ---: |
-| Số ảnh đã gán | |
-| Số skeleton | |
-| v=2 / v=1 / v=0 | |
-| Thời gian trung bình mỗi ảnh | |
+| Số ảnh đã gán | 20 |
+| Số skeleton | 29 |
+| v=2 / v=1 / v=0 | v=2 333 / v=1 129 / v=0 31 |
+| Thời gian trung bình mỗi ảnh | 14,15 phút |
 
 Ba khớp có `%v=1` cao nhất (chép từ `reports/visibility_report.md`):
 
-1.
-2.
-3.
+1. left_ear 62%
+2. left_hip 41%
+3.  right_ear 38%
 
 Chúng có đúng là những khớp bạn thấy khó gán nhất không? Nếu không, giải thích.
 
-<!-- Trả lời 2–4 câu. Phân biệt “hay bị che” với “khó xác định vị trí giải phẫu”; nêu bằng
-chứng nhìn thấy thay vì chỉ nêu cảm giác. -->
+Những khớp này thường bị che bởi rất nhiều yếu tố: Người đội mũ, nghiêng mặt , quay đi, người khác che, ... Nên thường phải dự đoán vị trí các bộ phận này, nhưng cơ bản là cũng không quá khó để xác định.
 
 ## 2. Chấm với gold
 
